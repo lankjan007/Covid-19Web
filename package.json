@@ -1,0 +1,31 @@
+{
+  "name": "covid-19web",
+  "version": "1.0.0",
+  "description": "Covid-19 web application dashboard project done as part of the Zero-to-mastery bootcamp practice. I hope to create a single-page application (App dashboard) that displays the most current Covid-19 information globally provided through different Api backend sources. I will include a list of the sources in a seperate folder within this project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lankjan007/Covid-19Web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lankjan007/Covid-19Web/issues"
+  },
+  "homepage": "https://github.com/lankjan007/Covid-19Web#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.13"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-watch": "^7.3.0"
+  }
+}
